@@ -8,7 +8,7 @@ const app = express();
 
 // root endpoint
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname + '/pages/index.html'));
+  res.sendFile(path.join(__dirname + '/public/pages/index.html'));
 });
 
 // select the port in which your Node.js web app will run
