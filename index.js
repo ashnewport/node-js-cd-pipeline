@@ -11,6 +11,11 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname + '/public/pages/index.html'));
 });
 
+// test endpoint
+app.get('/done', (req, res) => {
+  res.sendFile(path.join(__dirname + '/public/pages/done.html'));
+});
+
 // select the port in which your Node.js web app will run
 const port = 5000;
 
