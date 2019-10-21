@@ -4,7 +4,8 @@
   "description": "https://auth0.com/blog/continuous-deployment-pipelines-and-open-source-node-js-web-apps/",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "mkdir -p public && touch public/index.html"
   },
   "keywords": [],
   "author": "",
